@@ -16,6 +16,7 @@ export default function IndexPage() {
         <title>The Cat</title>
       </Head>
       
+    <p>Text</p>
     </Layout>
   )
 }
