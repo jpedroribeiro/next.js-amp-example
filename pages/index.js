@@ -18,7 +18,7 @@ export default function IndexPage() {
       
     <p>Text</p>
     <p>Text</p>
-    <p>isAmp = {isAmp}</p>
+    <p>isAmp = {isAmp.toString()}</p>
     <p>Text</p>
     </Layout>
   )
