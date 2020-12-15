@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import Byline from '../components/Byline'
 
 export const config = {
-  amp: "hibrid",
+  amp: "hybrid",
 }
 
 export default function IndexPage() {
@@ -16,6 +16,9 @@ export default function IndexPage() {
         <title>The Cat</title>
       </Head>
       
+    <p>Text</p>
+    <p>Text</p>
+    <p>isAmp = {isAmp}</p>
     <p>Text</p>
     </Layout>
   )
