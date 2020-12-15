@@ -92,3 +92,18 @@ export default function DogPage() {
     </div>
   )
 }
+
+export const getServerSideProps = async function ({
+  params,
+  req,
+  res,
+  query,
+}) {
+ 
+  return {
+    props: {
+      
+    },
+  };
+};
+
